@@ -56,6 +56,9 @@ dependencies {
     //spring-session-jdbc 등록
     implementation 'org.springframework.session:spring-session-jdbc'
 
+    //mariaDB
+    implementation 'org.mariadb.jdbc:mariadb-java-client'
+
     //특정 버전을 명시하지 않아야 ${springBootVersion} 해당 버전을 따라간다.
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.junit.jupiter:junit-jupiter-api'
